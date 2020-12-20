@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var objArr = [];
+    objArr[1] = [];
+    var objArr2 = objArr[1];
+    objArr2[1] = [];
+    var objArr3 = objArr2[1];
+    objArr3[1] = [];
+    var iArr = objArr3[1];
+    for(var i = 0; i < 5; i ++){
+        iArr[i] = i*3 +1;
+    }
+    document.writeln(objArr[1][1][1][2]);
+</script>
+
+</body>
+</html>
